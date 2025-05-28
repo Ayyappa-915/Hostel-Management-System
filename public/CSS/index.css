@@ -1,0 +1,116 @@
+body
+{
+    margin: 0;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: darkcyan;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container p
+{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.admin,.student
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.admin , .student  h2
+{
+    text-align: center;
+}
+.admin .admin-login
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.student .student-login
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.admin-login input
+{
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    height: 20px;
+    padding: 5px;
+}
+.admin-login .conformation
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.admin-login .conformation input
+{
+    height: max-content;
+    width: 150px;
+    padding: 5px;
+}
+.logins
+{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.student .student-login input
+{
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    height: 20px;
+    padding: 5px;
+}
+.student .student-login .conformation
+{
+    display: flex;
+    flex-direction: row;
+}
+.student .student-login .conformation input
+{
+    height: max-content;
+    width: 150px;
+    padding: 5px;
+}
+.conformation input[type='submit']
+{
+    font-weight: bold;
+    color: darkcyan;
+}
+.conformation input[type='submit']:hover
+{
+    background-color: darkcyan;
+    color: white;
+}
+.conformation input[type='reset']
+{
+    font-weight: bold;
+    color: darkcyan;
+}
+.conformation input[type='reset']:hover
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

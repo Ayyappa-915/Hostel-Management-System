@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-Room</title>
+    <link rel="stylesheet" href="../CSS/add_room.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h2>Add Room Details</h2>
+        <div class="rgform">
+            <input type="number" placeholder="Room Number" id="roomnumber" required>
+            <input type="number" id="floor" placeholder="Floor Number" required>
+            <input type="number" id="capacity" placeholder="Capacity" required />
+            <input type="number" id="available" placeholder="Available" required>
+            <select id="type">
+              <option value="Single Bed">Single Bed</option>
+              <option value="Double Bed">Double Bed</option>
+              <option value="Triple Bed">Triple Bed</option>
+            </select>
+            <select name="cool" id="cool">
+                <option value="AC">AC Room</option>
+                <option value="NON-AC">NON-AC Room</option>
+            </select>
+            <select name="ocuupy" id="occupy">
+                <option value="Empty">Empty</option>
+                <option value="Non-Empty">Non-Empty</option>
+            </select>
+            <input type="submit" value="Register">
+        </div>
+    </div>
+    <script src="js/add_room.js" lang="script"></script>
+</body>
+</html>

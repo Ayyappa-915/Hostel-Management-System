@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+    background-color: darkcyan;
+  display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.box
+{
+    border-style: solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    border-color: white;
+    height: fit-content;
+    margin-top: 50px;
+    position: absolute;
+    left: 300px;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+}
+.form input
+{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(216, 209, 209);
+}
+ h2
+{
+    text-align: center;
+}
+.form input[type="submit"]
+{
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(69, 69, 252);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.form input[type="submit"]:hover
+{
+    background-color: blue;
+    cursor: pointer;
+}
+.matter-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.matter {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
+
+}
+
+.fee-card {
+  background-color: #eaf1fb;
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.summary-box {
+  width: 320px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+#total_paid {
+  color: green;
+  margin-bottom: 10px;
+}
+#total_due {
+  color: red;
+}
+

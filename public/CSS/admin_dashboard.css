@@ -1,0 +1,121 @@
+body {
+    height: 90vh;
+    margin: 0;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: darkcyan;
+    gap: 5px;
+    padding: 20px;
+    position: sticky;
+    margin-top: 20px;
+    top: 0;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.navbar button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    height: 45px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.navbar button:hover {
+    background-color: darkcyan;
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: double;
+}
+.navbar button:active {
+    background-color: darkcyan;
+    color: white;
+    border: 1px solid white;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+    height: 80vh;
+    color: white;
+    scrollbar-width: none;
+    margin-top: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.heading button
+{
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    position: absolute;
+    right: 55px;
+    border-color: darkcyan;
+    border-width: 2px;
+}
+.heading button:hover
+{
+    background-color: darkcyan;
+    color: white;
+    font-size: larger;
+}
+#right 
+{
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 300px;
+    padding: 20px;
+}
+#right h1
+{
+    color: black;
+}
+

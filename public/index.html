@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management System</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <div class="container">
+        <p>*** Hostel Management System ***</p>
+        <div class="logins">
+            <div class="admin">
+                <h2>Admin Login</h2>
+                <div class="admin-login">
+                    <input type="text" placeholder="Username" id="uname" name="uname" required>
+                    <input type="password" placeholder="Password" id="pwd" name="pwd" required>
+                    <div class="conformation">
+                        <input type="submit" value="Login" onclick="adminlogin()">
+                        <input type="reset" value="Cancel" onclick="adminreset()">
+                    </div>
+                </div>
+            </div>
+            <div class="student">
+                <h2>Student Login</h2>
+                <div class="student-login">
+                    <input type="text" placeholder="Student-id" id="student-id" required>
+                    <input type="date" placeholder="Date-of-birth" id="dob" required>
+                    <div class="conformation">
+                        <input type="submit" value="Login" onclick="studentlogin()">
+                        <input type="reset" value="Cancel" onclick="studentreset()">                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js" lang="script"></script>
+</body>
+</html>

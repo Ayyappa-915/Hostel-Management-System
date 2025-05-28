@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Fee Details</title>
+  <link rel="stylesheet" href="../CSS/fee_details.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="box">
+        <div class="form" id="form">
+      <h2>Student Fee Details</h2>
+      <input type="text" placeholder="Student-Id" id="student-id" required />
+      <input type="submit" value="Get student Details" />
+    </div>
+    </div>
+
+    <div class="matter-container">
+      <div class="matter" id="matter"></div>
+    </div>
+  </div>
+</div>
+<div id="fee_summary" class="summary-box" style="display:none;">
+  <div id="total_paid"></div>
+  <div id="total_due"></div>
+<div id="matter"></div>
+
+  <script src="../js/fee_details.js"></script>
+</body>
+</html>

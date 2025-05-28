@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-dashboard</title>
+    <link rel="stylesheet" href="../CSS/admin_dashboard.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>WELCOME TO STUDENT DASHBOARD</h1>
+        <button type="button" onclick="logout()">LOG OUT</button>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <button type="button" onclick="stud_student_details()">Student Personal Details</button>
+            <button type="button" onclick="stud_room_details()">Student Room Details</button>
+            <button type="button" onclick="stud_allocated_room_details()">Allocated Room Details</button>
+            <button type="button" onclick="stud_nonallocated_room_details()">Non Allocated Room Details</button>
+            <button type="button" onclick="stud_exists_room_details()">View Room Details</button>
+            <button type="button" onclick="stud_fee_details()">Student Fee Details</button>
+        </div>
+        <div class="content" id="content">
+            <div id="right">
+                <h1>BACKBENCHERS HOSTEL</h1>
+                <h1>C-Mall, Station Road, CHIRALA</h1>
+                <h1>Contact : 8500978524</h1>
+            </div>
+            <iframe id="contentFrame" src="" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+        </div>
+    </div>
+    <script src="js/student_dashboard.js"></script>
+</body>
+</html>

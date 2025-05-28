@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../CSS/stu_registration.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h2>Student Registration</h2>
+        <div class="rgform">
+            <input type="text" placeholder="First Name" id="fname">
+            <input type="text" placeholder="Last Name" id="lname">
+            <div class="gender">
+                <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                <input type="radio" name="gender" id="others"><label for="others">Others</label>
+            </div>
+            <input type="date" placeholder="Date of Birth" id="dob">
+            <input type="text" placeholder="Student Id" id="student-id">
+            <input type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phno">
+            <input type="email" placeholder="Email" id="email">
+            <input type="text" placeholder="Address" id="address">
+            <input type="submit" value="Register">
+        </div>
+    </div>
+    <script src="js/stu_registration.js" lang="script"></script>
+</body>
+</html>
